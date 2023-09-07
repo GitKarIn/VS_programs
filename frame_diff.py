@@ -1,6 +1,5 @@
 # Frame Differencing
 
-# testing 
 import cv2
 
 # Compute the frame differences

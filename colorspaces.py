@@ -37,3 +37,15 @@ if __name__=='__main__':
         # Run median blurring
         img_median_blurred = cv2.medianBlur(img_bitwise_and, 5)
 
+        # Display the input and output 
+        cv2.imshow('Input', frame)
+        cv2.imshow('Output', img_median_blurred)
+
+        # Check if the user hit the 'Esc' key
+        c = cv2.waitKey(5)
+        if c == 27:
+            break
+
+    # Close all the windows
+    cv2.destroyAllWindows()
+

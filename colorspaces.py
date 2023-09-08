@@ -28,6 +28,10 @@ if __name__=='__main__':
         # Convert the image to HSV colorspace
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
+        # Define range of skin color in hsv
+        lower = np.array([0, 70, 60])
+        upper = np.array([50, 150, 255])
+
         # Threshold the HSV image to get only skin color
         mask = cv2.inRange(hsv, lower, upper)
 

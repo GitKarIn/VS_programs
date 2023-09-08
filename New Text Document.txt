@@ -1,0 +1,4 @@
+Trackikng Objects Using Colorspaces (program: colorspaces.py)
+
+window titled 'output' is the captured frame
+window titled 'input' is the filtered skin mask

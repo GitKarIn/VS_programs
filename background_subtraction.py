@@ -55,7 +55,7 @@ if __name__=='__main__':
     cap.release()
 
     # Clos all the windows
-    cv2.destroAllWindows()
+    cv2.destroyAllWindows()
 
 
 

@@ -1,0 +1,19 @@
+Trackikng Objects Using Colorspaces (program: colorspaces.py)
+
+window titled 'output' is the captured frame
+window titled 'input' is the filtered skin mask
+
+  // enable Git in VS Code
+  "git.enabled": true,
+
+  // point to the Git executable
+  "git.path": "C:\\Users\\KAlstad\\AppData\\Local\\Git\\git.exe"
+
+
+ "terminal.integrated.profiles.windows": {
+      "GitBash": {
+        "path": "C:\\Users\\KAlstad\\AppData\\Local\\Git\\bash.exe",
+        "icon": "terminal-bash"
+      }
+    },
+    // "terminal.integrated.defaultProfile.windows": "GitBash",

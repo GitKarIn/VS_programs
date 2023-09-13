@@ -1,0 +1,19 @@
+---
+title: "matplotlib demo"
+format: 
+    html:
+        code-fold: true
+jupyter: python3
+---
+
+Demo of a line plot on a polar axis
+
+
+```{python}
+#| label: fig-polar
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+```
